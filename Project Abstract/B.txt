@@ -1,0 +1,103 @@
+
+Energy and water usage of large buildings in Ontario
+Ministry: Energy and Electrification
+
+Get data on the intensity of energy and water usage and greenhouse gas (GHG) emissions as well as property use types for buildings larger than 100,000 square feet. Where...
+-------------------
+https://data.ontario.ca/dataset/0eab2faf-6186-4a5b-8de1-b15872943c24/resource/f53db89b-d5e0-49ea-aa85-70453d969453/download/energy_large_building_energy_water_ghgs_2022.xlsx
+
+-----------------------
+1. Energy Consumption Analysis
+Objective: Analyze the energy consumption patterns of different property types.
+Questions to Explore:
+Which property types have the highest and lowest energy consumption?
+How does energy consumption vary across different cities and regions?
+2. Greenhouse Gas Emissions Study
+Objective: Investigate the greenhouse gas emissions associated with different property types.
+Questions to Explore:
+What are the main contributors to greenhouse gas emissions in various property types?
+How do emissions vary between residential and commercial properties?
+3. Energy Efficiency and Certification Impact
+Objective: Examine the impact of energy certifications (e.g., LEED, BOMA) on energy efficiency.
+Questions to Explore:
+Do properties with energy certifications have lower energy consumption and emissions?
+How effective are different certifications in promoting energy efficiency?
+4. Predictive Modeling for Energy Consumption
+Objective: Develop predictive models to forecast energy consumption based on property attributes.
+Algorithms: Linear Regression, Random Forest, Gradient Boosting.
+Steps:
+Identify key features influencing energy consumption.
+Train and validate predictive models.
+Evaluate model performance using metrics like RMSE and R².
+5. Clustering of Properties Based on Energy Usage
+Objective: Group properties with similar energy consumption patterns.
+Algorithms: k-Means Clustering, Hierarchical Clustering.
+Steps:
+Normalize the data to ensure all features contribute equally.
+Apply clustering algorithms to identify groups.
+Analyze the characteristics of each cluster.
+6. Impact of Property Type on Energy Intensity
+Objective: Analyze how different property types influence energy intensity (energy use per unit area).
+Questions to Explore:
+Which property types have the highest and lowest energy intensity?
+How does energy intensity correlate with property size and usage?
+7. Temporal Analysis of Energy Consumption
+Objective: Study the changes in energy consumption over time.
+Questions to Explore:
+Are there any trends or seasonal patterns in energy consumption?
+How has energy consumption evolved over the years for different property types?
+8. Correlation Analysis Between Energy Consumption and Emissions
+Objective: Investigate the relationship between energy consumption and greenhouse gas emissions.
+Questions to Explore:
+Is there a strong correlation between energy consumption and emissions?
+How do different energy sources (electricity, gas) impact emissions?
+9. Benchmarking Energy Performance
+Objective: Benchmark the energy performance of properties against industry standards.
+Questions to Explore:
+How do properties in the dataset compare to industry benchmarks?
+What are the best practices for improving energy performance?
+10. Impact of Socioeconomic Factors on Energy Consumption
+Objective: Explore the influence of socioeconomic factors on energy consumption.
+Questions to Explore:
+How does energy consumption vary with socioeconomic indicators like income and population density?
+Are there disparities in energy consumption based on socioeconomic status?
+These topics can be tailored to fit the specific requirements and scope of your capstone project. If you need more details on any specific approach or help with implementation, feel free to ask!
+
+-------------------
+
+Sure, I can help with that! Here are the possible meanings of each column heading in your dataset:
+
+1. **EWRB_ID**: A unique identifier for each building or property in the dataset.
+2. **City**: The city where the property is located.
+3. **Postal_Code**: The postal code of the property's location.
+4. **PrimPropTypCalc**: The primary property type as calculated.
+5. **PrimPropTypSelf**: The primary property type as self-reported.
+6. **Largest_PropTyp**: The largest property type within the building or property.
+7. **All_Prop_Types**: All property types present within the building or property.
+8. **Thrd_Party_Cert**: Indicates whether the property has third-party certifications.
+9. **WN_Sit_Elc_Int1**: Weather-normalized site electricity intensity (first measure).
+10. **WN_Sit_Elc_Int2**: Weather-normalized site electricity intensity (second measure).
+11. **WN_Sit_Gas_Int1**: Weather-normalized site gas intensity (first measure).
+12. **WN_Sit_Gas_Int2**: Weather-normalized site gas intensity (second measure).
+13. **WN_Sit_Gas_Int3**: Weather-normalized site gas intensity (third measure).
+14. **All_Water_Int1**: All water intensity (first measure).
+15. **All_Water_Int2**: All water intensity (second measure).
+16. **Ind_Water_Int1**: Individual water intensity (first measure).
+17. **Ind_Water_Int2**: Individual water intensity (second measure).
+18. **Site_EUI1**: Site Energy Use Intensity (first measure).
+19. **Site_EUI2**: Site Energy Use Intensity (second measure).
+20. **Source_EUI1**: Source Energy Use Intensity (first measure).
+21. **Source_EUI2**: Source Energy Use Intensity (second measure).
+22. **WN_Site_EUI1**: Weather-normalized Site Energy Use Intensity (first measure).
+23. **WN_Site_EUI2**: Weather-normalized Site Energy Use Intensity (second measure).
+24. **WN_Source_EUI1**: Weather-normalized Source Energy Use Intensity (first measure).
+25. **WN_Source_EUI2**: Weather-normalized Source Energy Use Intensity (second measure).
+26. **GHG_Emiss_Int1**: Greenhouse Gas Emissions Intensity (first measure).
+27. **GHG_Emiss_Int2**: Greenhouse Gas Emissions Intensity (second measure).
+28. **Ener_Star_Score**: Energy Star score of the property.
+29. **Ener_Star_Certs**: Indicates whether the property has Energy Star certifications.
+30. **Data_Qual_Check**: Indicates whether the data quality check has been performed.
+31. **Data_Qual_Date**: The date when the data quality check was performed.
+32. **Calculated with new source factors (Y/N)**: Indicates whether calculations were done with new source factors (Yes/No).
+
+If you need further details or have any specific questions about the dataset, feel free to ask!
